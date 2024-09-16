@@ -1,0 +1,18 @@
+name: libertalia
+version: '1.0'
+main: dev.jvfl.libertalia.Libertalia
+api-version: '1.21'
+
+commands:
+  voltar:
+    description: Volta para o spawn padrao de libertalia.
+    usage: /voltar
+
+  suicide:
+    description: Suicida-se.
+    usage: /suicide
+
+  safeentity:
+    usage: /safeentity
+
+
