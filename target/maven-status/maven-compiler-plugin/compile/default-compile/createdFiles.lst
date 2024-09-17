@@ -4,3 +4,4 @@ dev/jvfl/libertalia/Libertalia.class
 dev/jvfl/libertalia/ChatHandler.class
 dev/jvfl/libertalia/WorldHandler.class
 dev/jvfl/libertalia/LibertaliaEventListener.class
+dev/jvfl/libertalia/EntityHandler.class

@@ -15,4 +15,8 @@ commands:
   safeentity:
     usage: /safeentity
 
+  domar:
+    description: Doma um Wolf ou Cat na linha de visao.
+    usage: /domar
+
 

@@ -2,6 +2,7 @@ package dev.jvfl.libertalia;
 
 import org.bukkit.Bukkit;
 import org.bukkit.World;
+import org.bukkit.entity.Entity;
 import org.bukkit.entity.Player;
 import org.bukkit.event.player.PlayerCommandPreprocessEvent;
 
@@ -54,6 +55,13 @@ public class ChatHandler {
                 }
 
                 sendMessage(player, ChatColor.GREEN + "Server> Safe Entity: " + String.valueOf(WorldHandler.isSafeEntity(player)));
+                break;
+
+            case "/domar":
+                Entity entity = EntityHandler.OwnsLookingEntity(player);
+                sendMessage(player, ChatColor.GREEN + "Server> " +
+                    (entity != null ? entity.getName() + " Domado(a)!" : 
+                                "Nao foi possivel domar um animal!"));
                 break;
 
             default:
