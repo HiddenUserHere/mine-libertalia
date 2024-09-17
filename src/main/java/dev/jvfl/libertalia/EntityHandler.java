@@ -32,7 +32,7 @@ public class EntityHandler {
 
         entities.clear();
 
-        for (Entity entity : player.getNearbyEntities(10, 10, 10)) {
+        for (Entity entity : player.getNearbyEntities(2, 2, 2)) {
             if (isLookingAt(player, entity)) {
                 entities.add(entity);
             }
